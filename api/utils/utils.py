@@ -55,7 +55,7 @@ def isPrime(number):
     count = 0
     
     while ((num * num) <= number):
-        if number % 1 == 0:
+        if number % num == 0:
             count += 1
             if (number // num) != num:
                 count += 1
