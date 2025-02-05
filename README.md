@@ -1,6 +1,6 @@
 # TASK 1 SIMPLE API
 
-A simple public api for the HNG stage 0 backend task. it retuns a basic json data.
+A simple public api for the HNG stage 1 backend task. it retuns a basic json data about numbers.
 
 ## Requirements
 - git
