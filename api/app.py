@@ -19,7 +19,7 @@ def get_fun_facts():
     """
     number = request.args.get("number", type=int)
     if number is None:
-        return make_response(jsonify({"number": "alphabet", "error": True}), 400)
+        return make_response(jsonify({"number": request.args.get("number"), "error": True}), 400)
     
     properties = []
 

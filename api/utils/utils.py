@@ -7,12 +7,19 @@ def digitSum(number):
     """ Calculates the sum of digits in a number """
     sum = 0
 
+    sign = 1
+
+    if number < 0:
+        sign = -1
+
+    number = abs(number)
+
     while number > 0:
         digit = number % 10
-        sum += digit
+        sum += digiit
         number //= 10
     
-    return sum
+    return sum * sign
 
 def isArmstrong(number):
     """ checks ia a number is an armstrong number """
