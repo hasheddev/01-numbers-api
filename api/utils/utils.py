@@ -16,7 +16,7 @@ def digitSum(number):
 
     while number > 0:
         digit = number % 10
-        sum += digiit
+        sum += digit
         number //= 10
     
     return sum * sign
